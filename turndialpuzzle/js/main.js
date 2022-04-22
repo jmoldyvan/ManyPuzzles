@@ -137,7 +137,9 @@ document.querySelector('.button2').addEventListener('click', function spinleft2(
     circle1.style.transform = "rotate(" + deg + "deg)"
     circle2.style.transform = "rotate(" + deg2 + "deg)"
     circle3.style.transform = "rotate(" + deg3 + "deg)"
+    rotate01 = getCurrentRotationFixed('turnstyle1')
     rotate02 = getCurrentRotationFixed('turnstyle2')
+    rotate03 = getCurrentRotationFixed('turnstyle3')
     console.log(newangle1)
     console.log(newangle2)
     console.log(newangle3)
@@ -153,7 +155,7 @@ document.querySelector('.button3').addEventListener('click', function spinleft2(
     circle3.style.transform = "rotate(" + deg3 + "deg)"
     circle2.style.transform = "rotate(" + deg2 + "deg)"
     rotate02 = getCurrentRotationFixed('turnstyle2')
-    rotate02 = getCurrentRotationFixed('turnstyle3')
+    rotate03 = getCurrentRotationFixed('turnstyle3')
 
     if (newangle1 === 225 && newangle2 === 270 && newangle3 === 90) {
         alert('THE DOOR OPENED')
