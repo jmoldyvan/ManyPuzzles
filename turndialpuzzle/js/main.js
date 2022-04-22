@@ -123,7 +123,7 @@ document.querySelector('.button1').addEventListener('click', function spinleft2(
     rotate01 = getCurrentRotationFixed('turnstyle1')
     rotate02 = getCurrentRotationFixed('turnstyle2')
 
-    if (newangle1 === 225 && newangle2 === 270 && newangle3 === 90) {
+    if (newangle1 === 180 && newangle2 === 270 && newangle3 === 45) {
         alert('THE DOOR OPENED')
     }
 });
@@ -143,7 +143,7 @@ document.querySelector('.button2').addEventListener('click', function spinleft2(
     console.log(newangle1)
     console.log(newangle2)
     console.log(newangle3)
-    if (newangle1 === 225 && newangle2 === 270 && newangle3 === 90) {
+    if (newangle1 === 180 && newangle2 === 270 && newangle3 === 45) {
         alert('THE DOOR OPENED')
     }
 });
@@ -157,7 +157,7 @@ document.querySelector('.button3').addEventListener('click', function spinleft2(
     rotate02 = getCurrentRotationFixed('turnstyle2')
     rotate03 = getCurrentRotationFixed('turnstyle3')
 
-    if (newangle1 === 225 && newangle2 === 270 && newangle3 === 90) {
+    if (newangle1 === 180 && newangle2 === 270 && newangle3 === 45) {
         alert('THE DOOR OPENED')
     }
 });
