@@ -173,7 +173,7 @@ h1 {
 .face1P {
      border-color: transparent transparent rgb(255, 0, 0);
      transform-origin: center bottom;
-     transform: translateX(50px) translateY(50px) rotateX(35.36deg);
+     transform: translateX(50px) translateY(50px) rotateX(34.36deg);
 }
 
 .face2P {

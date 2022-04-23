@@ -10,7 +10,7 @@ let total = 0
 
 
 pyramid.addEventListener('click', function addfour() {
-    total += 4
+    total += 5
     if (total < 76) {
         underover.innerHTML = 'UNDER'
     }
