@@ -65,23 +65,3 @@ function drop(ev) {
     }
 
 }
-
-<<<<<<< HEAD
-
-
-// let boxInside = document.querySelectorAll('.box')
-
-//   for(let i=0; i < boxInside.length; i++){
-//   boxInside[i].addEventListener('click', function addXO(){
-
-//   if(turnCount%2!==0) {
-//     boxInside[i].innerHTML = '<h2>X</h2>'
-//     turnCount += 1
-//   } else if(turnCount%2===0) {
-//     boxInside[i].innerHTML = '<h2>O</h2>'
-//     turnCount += 1
-//   }
-// })
-//   }
-=======
->>>>>>> 8f8f569b5af2a3862be837891627c5e234723c5a

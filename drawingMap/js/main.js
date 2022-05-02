@@ -22,15 +22,6 @@ let draw = false
 // Returns an object that provides methods and properties for drawing and manipulating images and graphics on a canvas 
 // element in a document. A context object includes information about colors, line widths, fonts, and other graphic parameters
 
-<<<<<<< HEAD
-// let island = new Image();
-// island.src = 'images/adventureisland.jpg';
-// island.onload = function () {
-//     ctx.drawImage(island, 1000, 1000);
-// }
-=======
->>>>>>> 8f8f569b5af2a3862be837891627c5e234723c5a
-
 colors = Array.from(colors)
 
 colors.forEach(color => {
