@@ -66,6 +66,7 @@ function drop(ev) {
 
 }
 
+<<<<<<< HEAD
 
 
 // let boxInside = document.querySelectorAll('.box')
@@ -82,3 +83,5 @@ function drop(ev) {
 //   }
 // })
 //   }
+=======
+>>>>>>> 8f8f569b5af2a3862be837891627c5e234723c5a

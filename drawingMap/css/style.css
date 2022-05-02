@@ -24,7 +24,11 @@
 /*******************************************/
 
 body {
+<<<<<<< HEAD
      background: url('/images/adventureisland.jpg') no-repeat center;
+=======
+     background: url('adventureisland.jpg') no-repeat center;
+>>>>>>> 8f8f569b5af2a3862be837891627c5e234723c5a
      background-size: contain;
 
 }
